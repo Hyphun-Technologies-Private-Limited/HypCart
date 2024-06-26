@@ -1,0 +1,28 @@
+{
+    "name": "hyphun/hypcart",
+    "description": "Laravel Package for quick shopping cart and checkout page",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "livewire/livewire": "dev-main",
+        "cknow/laravel-money": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyphun\\Hypcart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hyphun Technologies",
+            "email": "devs@hyphun.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hyphun\\HypCart\\HypCartServiceProvider"
+            ]
+        }
+    }
+}
