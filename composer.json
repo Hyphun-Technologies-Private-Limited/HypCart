@@ -4,6 +4,17 @@
     "type": "library",
     "license": "MIT",
     "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0",
+        "illuminate/routing": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/validation": "^10.0|^11.0",
+        "league/mime-type-detection": "^1.9",
+        "symfony/console": "^6.0|^7.0",
+        "symfony/http-kernel": "^6.2|^7.0"
+    },
+    "require-dev":{
+        "laravel/framework": "^10.15.0|^11.0",
         "livewire/livewire": "dev-main",
         "cknow/laravel-money": "dev-main"
     },
@@ -24,5 +35,7 @@
                 "Hyphun\\HypCart\\HypCartServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
