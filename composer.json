@@ -1,6 +1,6 @@
 {
     "name": "hyphun/hypcart",
-    "description": "Laravel Package for quick shopping cart and checkout page",
+    "description": "Laravel Package for shopping cart and checkout page",
     "type": "library",
     "license": "MIT",
     "require": {
