@@ -15,8 +15,8 @@
     },
     "require-dev":{
         "laravel/framework": "^10.15.0|^11.0",
-        "livewire/livewire": "dev-main",
-        "cknow/laravel-money": "dev-main"
+        "livewire/livewire": "*",
+        "cknow/laravel-money": "*"
     },
     "autoload": {
         "psr-4": {
