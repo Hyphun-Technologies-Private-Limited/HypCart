@@ -2,7 +2,7 @@
     "name": "hyphun/hypcart",
     "description": "Laravel Package for shopping cart and checkout page.",
     "type": "library",
-    "license": "MIT",
+    "license": "MIT ",
     "require": {
         "php": "^8.1",
         "illuminate/database": "^10.0|^11.0",
