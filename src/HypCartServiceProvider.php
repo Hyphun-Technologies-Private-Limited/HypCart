@@ -1,7 +1,6 @@
 <?php
 
-namespace Hyphun\HypCart\Providers;
-
+namespace Hyphun\HypCart;
 use Illuminate\Support\ServiceProvider;
 
 class HypCartServiceProvider extends ServiceProvider

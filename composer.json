@@ -1,5 +1,5 @@
 {
-    "name": "hyphun/hypcart",
+    "name": "Hyphun/HypCart",
     "description": "Laravel Package for shopping cart and checkout page.",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hyphun\\Hypcart\\": "src/"
+            "Hyphun\\HypCart\\": "src/"
         }
     },
     "authors": [
