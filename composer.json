@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hyphun\\HypCart\\": "src/"
+            "hyphun\\hypcart\\": "src/"
         }
     },
     "authors": [
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hyphun\\HypCart\\HypCartServiceProvider"
+                "hyphun\\hypcart\\HypCartServiceProvider"
             ]
         }
     }
