@@ -1,5 +1,5 @@
 {
-    "name": "Hyphun/HypCart",
+    "name": "hyphun/hypcart",
     "description": "Laravel Package for shopping cart and checkout page.",
     "type": "library",
     "license": "MIT",
