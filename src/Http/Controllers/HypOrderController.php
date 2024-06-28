@@ -4,9 +4,9 @@ namespace Hyphun\HypCart\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Hyphun\HypCart\Models\Cart;
+use Hyphun\HypCart\Models\HypOrder;
 
-class CartController extends Controller
+class HypOrderController extends Controller
 {
     public function index()
     {

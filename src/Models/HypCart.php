@@ -4,7 +4,7 @@ namespace Hyphun\HypCart\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cart extends Model
+class HypCart extends Model
 {
     protected $fillable = ['product_id', 'quantity'];
 }
