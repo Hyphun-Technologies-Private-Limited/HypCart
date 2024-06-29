@@ -30,5 +30,10 @@
                 "hyphun\\hypcart\\HypCartServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "migrate": [
+            "php artisan migrate --package=\"hyphun/hypcart\" --env=$LARAVEL_ENV"
+        ]
     }
 }
